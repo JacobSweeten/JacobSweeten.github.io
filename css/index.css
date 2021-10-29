@@ -1,3 +1,59 @@
+div {
+	box-sizing: border-box;
+}
+
 body {
 	margin: 0;
+}
+
+#header {
+	position: relative;
+	width: 100%;
+	height: 100px;
+	background-color: #2b60ff;
+	color: White;
+	font-family: Arial;
+}
+
+#links {
+	position: absolute;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	bottom: 0;
+}
+
+#links a {
+	display: inline-block;
+	height: 30px;
+}
+
+#links a:link {
+	color: White;
+	text-decoration: none;
+}
+
+#links a:visited {
+	color: White;
+}
+
+#links a:hover {
+	background-color: #163694;
+}
+
+.header-link {
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	margin: 0;
+	padding: 5px;
+	width: 100px;
+	text-align: center;
+}
+
+#first-link {
+	border-left: 0;
+}
+
+#last-link {
+	border-right: 0;
 }
