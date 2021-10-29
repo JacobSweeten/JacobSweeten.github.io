@@ -3,12 +3,35 @@
 	<head>
 		<meta charset="UTF-8" />
 		<title>Jacob Sweeten - home</title>
+		<link rel="stylesheet" href="css/common.css" />
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	</head>
 	<body>
-		<div id="header"></div>
+		<div id="header-wrapper"></div>
+		<div id="body-wrapper">
+			<div class="body-card">
+				<h1 class="body-card-title">About Me</h1>
+				<div class="horizontal-line"></div>
+				<br />
+				<p class="body-card-content">
+					Hello. I am a senior cybersecurity and CyberCorps Scholarship for
+					Service student at Tennessee Tech University. Please feel free to look
+					around my website!
+				</p>
+			</div>
+			<div class="body-card">
+				<h1 class="body-card-title">Note</h1>
+				<div class="horizontal-line"></div>
+				<br />
+				<p class="body-card-content">
+					This website is under construction. Please excuse any missing information,
+					blank pages, or otherwise. Thank you!
+				</p>
+			</div>
+			<div id="body-footer">&copy; Copyright 2021, Jacob Sweeten</div>
+		</div>
 	</body>
 	<script>
-		$("#header").load("header.html");
+		$("#header-wrapper").load("header.html");
 	</script>
 </html>
