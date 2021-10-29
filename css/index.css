@@ -1,0 +1,9 @@
+#photo {
+	width: 150px;
+}
+
+.inline-with-image{
+	display: inline-block;
+	width: calc(100% - 200px);
+	vertical-align: top;
+}
