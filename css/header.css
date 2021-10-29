@@ -13,6 +13,10 @@
 	width: 400px;
 }
 
+#header-img img {
+	width: 400px;
+}
+
 #links {
 	position: absolute;
 	margin: 0 auto;
