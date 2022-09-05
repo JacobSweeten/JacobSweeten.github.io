@@ -7,3 +7,11 @@
 	width: calc(100% - 200px);
 	vertical-align: top;
 }
+
+.inline-with-image ul {
+	list-style-position: inside;
+}
+
+#right-of-photo {
+	padding-left: 20px;
+}
