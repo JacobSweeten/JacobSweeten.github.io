@@ -433,7 +433,7 @@ function Contact() {
 
                 <Stack sx={{ maxWidth: 710, borderTop: "1px solid rgba(27, 41, 36, 0.12)" }}>
                     {[
-                        { label: "Email", value: "sweeten.jacob@gmail.com", href: "mailto:sweeten.jacob@gmail.com" },
+                        { label: "Email", value: "mail@jacobsweeten.net", href: "mailto:mail@jacobsweeten.net" },
                         { label: "LinkedIn", value: "Jacob Sweeten", href: "https://www.linkedin.com/in/jacob-sweeten-473122182/" },
                         { label: "GitHub", value: "JacobSweeten", href: "https://github.com/JacobSweeten" }
                     ].map((item) => (
