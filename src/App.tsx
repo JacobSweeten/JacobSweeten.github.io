@@ -53,20 +53,24 @@ function Header({ page, navigate }: { page: Page; navigate: (nextPage: Page) => 
                         display: "flex",
                         alignItems: "center",
                         justifyContent: "center",
-                        width: { xs: 128, md: 178 },
+                        width: "350px",
                         height: { xs: 34, md: 43 },
-                        backgroundColor: "primary.main",
-                        borderRadius: 0,
-                        transition: "background-color 180ms ease",
+                        transition: "background-color 500ms ease",
                         "&:hover": { backgroundColor: "secondary.main" }
                     }}
                 >
-                    <Box
-                        component="img"
-                        src="/content/images/Jacob Sweeten ACII.png"
-                        alt="Jacob Sweeten"
-                        sx={{ display: "block", width: { xs: 105, md: 156 }, height: "auto" }}
-                    />
+                    <Typography variant="h3"
+                        sx={{
+                            display: "block",
+                            height: "auto",
+                            fontFamily: "Franunces, Georgia, serif",
+                            fontStyle: "bold",
+                            transition: "background-color 500ms ease",
+                            "&:hover": { color: "background.default" }
+                        }}
+                    >
+                        Jacob Sweeten
+                    </Typography>
                 </Link>
 
                 <Stack direction="row" spacing={{ xs: 1.5, md: 4 }} alignItems="center">
