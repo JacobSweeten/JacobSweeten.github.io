@@ -1,42 +1,17 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<title>Jacob Sweeten - About Me</title>
-		<link rel="stylesheet" href="css/common.css" />
-		<link rel="stylesheet" href="css/index.css" />
-		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-		<!-- <script src="js/jquery-3.6.0.min.js"></script> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="theme-color" content="#f5f5ef" />
+		<meta name="description" content="Jacob Sweeten's portfolio: cybersecurity, hardware security, and personal projects." />
+		<title>Jacob Sweeten | Security & Systems</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet" />
 	</head>
 	<body>
-		<div id="header-wrapper"></div>
-		<div id="body-wrapper">
-			<div class="body-card">
-				<h1 class="body-card-title">About Me</h1>
-				<div class="horizontal-line"></div>
-				<br />
-				<img id="photo" src="content/images/photo.jpg" />
-				<div id="right-of-photo" class="body-card-content inline-with-image">
-					<p>
-						M.S. in computer science with a focus in cybersecurity. Interested in IT security and hardware security. 
-					</p>
-					<br />
-					<br />
-					<p>My hobbies include:</p>
-					<ul>
-						<li>Learning about aviation</li>
-						<li>Playing in flight simulators</li>
-						<li>Learning about cars</li>
-						<li>Hiking</li>
-						<li>Gaming</li>
-					</ul>
-				</div>
-			</div>
-			<div id="body-footer-wrapper"></div>
-		</div>
+		<div id="root"></div>
+		<script type="module" src="/src/main.jsx"></script>
 	</body>
-	<script>
-		$("#header-wrapper").load("header.html");
-		$("#body-footer-wrapper").load("body-footer.html");
-	</script>
 </html>
