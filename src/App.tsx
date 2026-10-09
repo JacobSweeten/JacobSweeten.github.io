@@ -236,7 +236,7 @@ function About({ navigate }: { navigate: (nextPage: Page) => void }) {
                         justifyContent="space-between"
                         sx={{ position: "absolute", right: 14, bottom: 14, left: 14, color: "#536158", fontSize: "0.65rem" }}
                     >
-                        <Typography variant="caption">Based in Tennessee</Typography>
+                        <Typography variant="caption">Based in Virginia Beach</Typography>
                         <Typography variant="caption">Always learning</Typography>
                     </Stack>
                 </Box>
@@ -264,7 +264,7 @@ function About({ navigate }: { navigate: (nextPage: Page) => void }) {
                         security: how systems are built, where they can fail, and how to make them more resilient.
                     </Typography>
                     <Stack direction="row" spacing={1.25} useFlexGap flexWrap="wrap" sx={{ mt: 3 }}>
-                        {["Aviation", "Flight simulation", "Cars", "Hiking", "Gaming"].map((interest) => (
+                        {["Photography", "Programming", "Gaming"].map((interest) => (
                             <Chip
                                 key={interest}
                                 label={interest}
@@ -538,7 +538,7 @@ export default function App() {
                     }}
                 >
                     <Typography variant="caption">© {new Date().getFullYear()} Jacob Sweeten</Typography>
-                    <Typography variant="caption">Built with curiosity in Tennessee</Typography>
+                    <Typography variant="caption">Built with curiosity in Virginia Beach</Typography>
                 </Box>
             </Box>
         </>
