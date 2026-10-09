@@ -59,7 +59,8 @@ function Header({ page, navigate }: { page: Page; navigate: (nextPage: Page) => 
                         "&:hover": { backgroundColor: "secondary.main" }
                     }}
                 >
-                    <Typography variant="h3"
+                    <Typography
+                        variant="h3"
                         sx={{
                             display: "block",
                             height: "auto",
